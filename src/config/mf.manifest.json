@@ -1,0 +1,58 @@
+{
+  "product": {
+    "routePath": "product",
+    "remoteEntry": "https://localhost:30512/remoteEntry.js",
+    "displayName": "product",
+    "exposedModule": "./product",
+    "ngModuleName": "AppModule"
+  },
+  "organization": {
+    "routePath": "organization",
+    "remoteEntry": "https://localhost:30522/remoteEntry.js",
+    "displayName": "organization",
+    "exposedModule": "./organization",
+    "ngModuleName": "AppModule"
+  },
+  "user": {
+    "routePath": "user",
+    "remoteEntry": "https://localhost:30532/remoteEntry.js",
+    "displayName": "user",
+    "exposedModule": "./user",
+    "ngModuleName": "AppModule"
+  },  
+  "undermaintenance": {
+    "routePath": "undermaintenance",
+    "remoteEntry": "https://localhost:30542/remoteEntry.js",
+    "displayName": "undermaintenance",
+    "exposedModule": "./undermaintenance",
+    "ngModuleName": "AppModule"
+  },  
+  "mastersettings": {
+    "routePath": "mastersettings",
+    "remoteEntry": "https://localhost:30552/remoteEntry.js",
+    "displayName": "mastersettings",
+    "exposedModule": "./mastersettings",
+    "ngModuleName": "AppModule"
+  },
+  "loan": {
+    "routePath": "loan",
+    "remoteEntry": "https://localhost:30562/remoteEntry.js",
+    "displayName": "loan",
+    "exposedModule": "./loan",
+    "ngModuleName": "AppModule"
+  },
+  "customer": {
+    "routePath": "customer",
+    "remoteEntry": "https://localhost:30572/remoteEntry.js",
+    "displayName": "customer",
+    "exposedModule": "./customer",
+    "ngModuleName": "AppModule"
+  },
+  "others": {
+    "routePath": "others",
+    "remoteEntry": "https://localhost:30582/remoteEntry.js",
+    "displayName": "others",
+    "exposedModule": "./others",
+    "ngModuleName": "AppModule"
+  }
+}

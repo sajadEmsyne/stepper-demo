@@ -1,0 +1,274 @@
+//
+//  _sweetalert2.scss
+//
+
+.swal2-container {
+  .swal2-title {
+    padding: 24px 24px 0;
+    font-size: 20px;
+    font-weight: $font-weight-medium;
+  }
+}
+
+.swal2-popup {
+  padding-bottom: 24px;
+  border-radius: $modal-content-border-radius;
+  background-color: var(--#{$prefix}secondary-bg);
+  color: var(--#{$prefix}body-color);
+
+  .swal2-title {
+    color: var(--#{$prefix}heading-color);
+  }
+
+  .swal2-html-container {
+    color: var(--#{$prefix}body-color);
+  }
+}
+
+.swal2-footer {
+  border-top: 1px solid var(--#{$prefix}border-color);
+  color: var(--#{$prefix}body-color);
+}
+
+.swal2-html-container {
+  font-size: 16px;
+}
+
+.swal2-icon {
+  &.swal2-question {
+    border-color: $info;
+    color: $info;
+  }
+
+  &.swal2-success {
+    [class^=swal2-success-line] {
+      background-color: $success;
+    }
+
+    .swal2-success-ring {
+      border-color: rgba($success, 0.3);
+    }
+  }
+
+  &.swal2-warning {
+    border-color: $warning;
+    color: $warning;
+  }
+
+  max-width: 50px !important;
+  max-height: 50px !important;
+}
+
+.swal2-styled {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.swal2-loader {
+  border-color: $primary transparent $primary transparent;
+}
+
+.swal2-timer-progress-bar {
+  background-color: rgba($success, 0.4);
+}
+
+.swal2-progress-steps {
+  .swal2-progress-step {
+    background: $primary;
+
+    &.swal2-active-progress-step {
+      background: $primary;
+
+      &~.swal2-progress-step,
+      &~.swal2-progress-step-line {
+        background: rgba($primary, 0.3);
+      }
+    }
+  }
+
+  .swal2-progress-step-line {
+    background: $primary;
+  }
+}
+
+.swal2-actions.swal2-loading {
+  .swal2-styled.swal2-confirm {
+    border-left-color: $primary !important;
+    border-right-color: $primary !important;
+  }
+}
+
+.swal2-file,
+.swal2-input,
+.swal2-textarea {
+  border: 1px solid $input-border-color;
+
+  &:focus {
+    box-shadow: none;
+    border-color: $input-focus-border-color;
+  }
+}
+
+.swal2-input {
+  height: auto;
+  display: block;
+  padding: $input-padding-y $input-padding-x;
+  font-family: $input-font-family;
+  @include font-size($input-font-size);
+  font-weight: $input-font-weight;
+  line-height: $input-line-height;
+  color: $input-color;
+  background-color: $input-bg;
+  background-clip: padding-box;
+  border: $input-border-width solid $input-border-color;
+}
+
+.swal2-close {
+  font-family: $font-family-base;
+  font-weight: $font-weight-light;
+  font-size: 28px;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.swal2-validation-message {
+  background-color: transparent;
+}
+
+
+/*swal style modification*/
+::ng-deep .swal2-popup {
+  max-width: 280px !important;
+}
+
+.swal2-modal {
+  width: 290px !important;
+}
+
+.swal2-html-container {
+  margin: 5px 12px !important;
+  margin-top: 15px !important;
+  font-size: 15px !important;
+}
+
+.swal2-styled.swal2-confirm,
+.swal2-styled.swal2-deny,
+.swal2-styled.swal2-cancel {
+  font-size: 13px !important;
+  margin: 0px !important;
+  border-radius: 5px !important;
+  padding: 6px 18px;
+  margin: 0px 5px !important;
+}
+
+.swal2-icon {
+  margin: 0px auto !important;
+}
+
+.swal2-actions {
+  margin-top: 13px !important;
+}
+
+.swal2-error {
+  max-width: 37px !important;
+  max-height: 37px !important;
+  border: 1px solid #e60000 !important;
+  margin-top: 25px !important;
+}
+
+.swal2-info {
+  max-width: 37px !important;
+  max-height: 37px !important;
+  margin-top: 25px !important;
+  border: 1px solid #3fc3ee !important;
+}
+
+.swal2-question {
+  max-width: 37px !important;
+  max-height: 37px !important;
+  margin-top: 25px !important;
+  border: 1px solid #87adbd !important;
+}
+
+.swal2-warning {
+  max-width: 37px !important;
+  max-height: 37px !important;
+  margin-top: 25px !important;
+  border: 1px solid #f8bb86 !important;
+}
+
+.swal2-chekd {
+  max-width: 50px !important;
+  max-height: 50px !important;
+  margin-top: 20px !important;
+}
+
+.swal2-info .swal2-icon-content,
+.swal2-question .swal2-icon-content,
+.swal2-warning .swal2-icon-content {
+  font-size: 24px !important;
+}
+
+.swal2-x-mark-line-left,
+.swal2-x-mark-line-right {
+  top: 50% !important;
+  width: 16px !important;
+  height: 1px !important;
+  background-color: #e60000 !important;
+}
+
+.swal2-x-mark-line-left {
+  left: 29% !important;
+  transform: rotate(45deg) translateY(-50%) !important;
+}
+
+.swal2-x-mark-line-right {
+  right: 28% !important;
+  transform: rotate(-45deg) translateY(-50%) !important;
+}
+
+.swal2-success {
+  height: 47px !important;
+  width: 47px !important;
+  margin-top: 25px !important;
+  border: none !important;
+}
+
+.swal2-success .swal2-success-line-tip {
+  top: 24px !important;
+  left: 9px !important;
+  width: 10px !important;
+  height: 2px !important;
+}
+
+.swal2-success .swal2-success-line-long {
+  top: 21px !important;
+  right: 12px !important;
+  height: 2px !important;
+  width: 21px !important;
+}
+
+.swal2-success .swal2-success-ring {
+  border: 1px solid #a5dc86 !important;
+}
+
+.swal2-success-fix,
+.swal2-success-circular-line-right {
+  display: none !important;
+}
+
+
+// .required-field::after {
+//   content: " *"; 
+//   font-weight: 900;
+//   color: var(--vz-danger);
+// }
+
+/*floating label end*/

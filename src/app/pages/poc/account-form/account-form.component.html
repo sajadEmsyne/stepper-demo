@@ -1,0 +1,41 @@
+<!-- <div class="stepper-container">
+  <div class="stepper">
+    <div class="step completed">✔</div>
+    <div class="step completed">✔</div>
+    <div class="step active">3</div>
+    <div class="step">4</div>
+  </div>
+  <div class="stepper-line">
+    <div class="line completed"></div>
+    <div class="line completed"></div>
+    <div class="line active"></div>
+  </div>
+  <div class="stepper-labels">
+    <span class="label completed">User form</span>
+    <span class="label completed">Address form</span>
+    <span class="label active">Account form</span>
+    <span class="label">Summary</span>
+  </div>
+</div> -->
+
+<div class="form-container">
+  <form [formGroup]="accountForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input id="email" type="email" formControlName="email" />
+      <div *ngIf="accountForm.get('email')?.invalid && accountForm.get('email')?.touched">
+        A valid email is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input id="password" type="password" formControlName="password" />
+      <div *ngIf="accountForm.get('password')?.invalid && accountForm.get('password')?.touched">
+        Password must be at least 6 characters long.
+      </div>
+    </div>
+
+
+  </form>
+</div>

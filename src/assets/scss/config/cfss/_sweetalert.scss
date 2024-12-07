@@ -1,0 +1,168 @@
+.swal2-title {
+    padding: 0.8em 1em 0;
+    color: white !important;
+    font-size: 1.2em !important;
+    font-weight: 500;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.swal2-select {
+    padding: 0.375em 0.625em !important;
+    font-size: 1em !important;
+}
+
+.swal2-html-container {
+    margin: 0.5em 0.5em 0.3em !important;
+    padding: 1em 0.8em .3em !important;
+    font-size: 1.125em !important;
+    font-weight: 600 !important;
+    line-height: 21px !important;
+}
+
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: 4.25em !important;
+    min-width: 91px !important;
+    min-height: 33px;
+    background-color: #4b38b3 !important //var(--ion-color-primary);
+
+}
+
+.swal2-styled.swal2-cancel {
+    border: 0;
+    border-radius: 4.25em !important;
+    min-width: 91px !important;
+    min-height: 33px;
+
+}
+
+.swal2-styled {
+    border-radius: 4.25em !important;
+    min-width: 85px !important;
+    padding: 0.35em 1.1em !important;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0, 100%);
+    width: 25em !important;
+    max-width: 100%;
+    padding: 0 0 1.25em;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #545454;
+    font-family: inherit;
+    // font-size: 1rem;
+    font-size: 14px !important;
+}
+
+.colored-toast.swal2-icon-success {
+    background-color: #0a8506 !important;
+}
+
+.colored-toast.swal2-icon-error {
+    background-color: #eb1227 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+    background-color: #f89406 !important; 
+}
+
+.colored-toast.swal2-icon-info {
+    background-color: #3775e6 !important;
+}
+
+.colored-toast.swal2-icon-question {
+    background-color: #3775e6 !important;
+}
+
+.colored-toast .swal2-title {
+    color: white;
+}
+
+.colored-toast .swal2-close {
+    color: white;
+}
+
+.colored-toast .swal2-html-container {
+    color: white;
+}
+
+.swal-sub-head {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    display: block;
+    font-size: 14px;
+    color: #000;
+}
+
+// for thumbnail 
+.swal2-container {
+
+    ul.prod-list {
+        padding-left: 5px;
+
+        li {
+            display: flex;
+        }
+
+        ion-thumbnail.prod-item {
+            height: 22px;
+            max-width: 80px;
+            margin: initial;
+            margin-right: 10px;
+            border-radius: 0 !important;
+        }
+    }
+
+    ion-thumbnail {
+
+        --size: 28px;
+        margin-right: 10px;
+
+        img {
+            width: 30px;
+            height: 20px;
+            margin-right: 3px;
+            object-fit: contain;
+        }
+    }
+}
+
+.swal-confirmed-color {
+    background-color: #3ede16 !important;
+}
+
+.swal-cancel-color {
+    background-color: #666666 !important;
+}
+
+.swal2-confirm:focus {
+    box-shadow: 0 0 0 3px rgb(103 211 177);
+}
+
+.swal2-icon {
+    zoom: .6;
+}
+
+.ion-fab-button-danger {
+    --background: #dc3545 !important;
+}
+
+body.swal2-toast-shown .swal2-container {
+    box-sizing: border-box;
+    width: fit-content !important;
+    min-width: 360px;
+    max-width: 520px !important;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.swal2-popup.swal2-toast.swal2-show {
+    width: 100% !important;
+}
+  

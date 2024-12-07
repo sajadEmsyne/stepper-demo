@@ -1,0 +1,129 @@
+/* Stepper container */
+.stepper-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.step.active,
+.step.completed {
+  background-color: blue;
+}
+
+.step.completed {
+  font-size: 20px;
+}
+
+/* Blue connecting lines */
+.stepper-line {
+  position: relative;
+  top: -20px; /* Aligns line under the steps */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  height: 2px;
+  flex: 1;
+  background-color: lightgray;
+  /* margin: 0 20px; */
+  position: relative;
+  z-index: -1;
+}
+
+.line.completed {
+  background-color: blue;
+}
+
+/* Stepper labels */
+.stepper-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.label {
+  font-size: 14px;
+  color: gray;
+}
+
+.label.active,
+.label.completed {
+  color: blue;
+}
+
+/* Summary container */
+.summary-container {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-container h2 {
+  font-size: 18px;
+  color: blue;
+  margin-bottom: 10px;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 5px;
+}
+
+.summary-container p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Highlight labels */
+.summary-container p span {
+  font-weight: bold;
+  color: black;
+}
+
+/* Button styling */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkblue;
+}

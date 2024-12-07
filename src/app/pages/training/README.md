@@ -1,0 +1,1 @@
+All training assignments should be kept inside the training folder.

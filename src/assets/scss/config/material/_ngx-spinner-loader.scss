@@ -1,0 +1,33 @@
+.loader-outer-ngx-spinner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+  
+  .loader-outer-ngx-spinner .inner-ngx-spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .loader-outer-ngx-spinner .inner-ngx-spinner img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60px;
+  }
+   /*loader*/
+   .loader-ngx-spinner {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    border-top: 2px solid rgb(222 222 222 / 0%);
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+  }
