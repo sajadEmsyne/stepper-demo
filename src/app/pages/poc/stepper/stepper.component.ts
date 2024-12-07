@@ -59,11 +59,7 @@ export class StepperComponent implements OnInit {
 
   next() {
     console.log("Called next");
-    this.router.navigate(["/app/stepper/address"]).then((succ)=>{
-
-    }).catch((err)=>{
-      console.log(err,"Error")
-    });
+    this.router.navigate(["/app/stepper/address"])
   }
 
   prev() {}
