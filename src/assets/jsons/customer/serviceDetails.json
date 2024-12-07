@@ -1,0 +1,66 @@
+
+[  
+        {  
+          "id": 1,  
+          "iconUrl":"ri-database-fill",
+          "text":"Gold Loan"
+        },  
+        {  
+          "id": 2,  
+          "iconUrl":"ri-home-line",
+          "text":"Gold Loan @Home"
+        },  
+        {  
+          "id": 3,  
+          "iconUrl":"ri-customer-service-line",
+          "text":"Personal Loan"
+        },  
+        {  
+          "id": 4,  
+          "iconUrl":"ri-settings-fill",
+          "text":"Housing Finance"
+        },  
+        {  
+          "id": 5,  
+          "iconUrl":"ri-xbox-line",
+          "text":"Insurance"
+        }  ,
+        {  
+            "id": 6,  
+            "iconUrl":"ri-money-cny-box-fill",
+            "text":"Money Transfer"
+          }  ,
+          {  
+            "id": 7,  
+            "iconUrl":"ri-bike-fill",
+            "text":"Vehicle Loan"
+          }  ,
+          {  
+            "id": 8,  
+            "iconUrl":"ri-car-fill",
+            "text":"Micro Finance"
+          }  ,
+          {  
+            "id": 9,  
+            "iconUrl":"ri-folder-fill",
+            "text":"Corporate Loan"
+          }  ,
+          {  
+            "id": 10,  
+            "iconUrl":"ri-computer-fill",
+            "text":"SME Loan"
+          } ,
+          {  
+            "id": 11,  
+            "iconUrl":"ri-road-map-fill",
+            "text":"Mutual Funds"
+          } ,
+          {  
+            "id": 12,  
+            "iconUrl":"ri-tv-fill",
+            "text":"NCD"
+          } 
+    ]
+      
+
+ 

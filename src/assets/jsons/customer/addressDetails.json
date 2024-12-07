@@ -1,0 +1,65 @@
+{
+    "data":{
+        "addressType": [
+            {
+                "id": 1,
+                "name": "Present"
+            },
+            {
+                "id": 2,
+                "name": "Permenant"
+            },
+            {
+                "id": 3,
+                "name": "Office"
+            }
+        ],
+        "district":  [
+            {
+                "id": 1,
+                "name": "Kannur"
+            },
+            {
+                "id": 2,
+                "name": "Malapuram"
+            },
+            {
+                "id": 3,
+                "name": "Ernakulam"
+            }
+        ],
+        "state": [
+            {
+                "id": 1,
+                "name": "Kerala"
+
+            },
+            {
+                "id": 2,
+                "name": "TamilNadu"
+            }
+        ],
+        "country": [
+            {
+                "id": 1,
+                "name": "India"
+
+            },
+            {
+                "id": 2,
+                "name": "UK"
+            }
+        ],
+        "postOffice": [
+            {
+                "id": 1,
+                "name": "Kottayam"
+
+            },
+            {
+                "id": 2,
+                "name": "Aluva"
+            }
+        ]
+    }
+}

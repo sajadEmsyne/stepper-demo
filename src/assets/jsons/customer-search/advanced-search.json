@@ -1,0 +1,364 @@
+{
+    "customer-status": [
+        {
+            "status_id": 1,
+            "status": "All"
+        },
+        {
+            "status_id": 2,
+            "status": "Active"
+        },
+        {
+            "status_id": 3,
+            "status": "Inactive"
+        },
+        {
+            "status_id": 4,
+            "status": "Blocked"
+        },
+        {
+            "status_id": 5,
+            "status": "Deceased"
+        },
+        {
+            "status_id": 6,
+            "status": "Notice returned"
+        },
+        {
+            "status_id": 7,
+            "status": "Sent for Approval-Cust Mobile"
+        },
+        {
+            "status_id": 8,
+            "status": "Rejected"
+        },
+        {
+            "status_id": 9,
+            "status": "Sent for Approval-Emp Mobile"
+        },
+        {
+            "status_id": 10,
+            "status": "KYC not submitted"
+        }
+    ],
+    "customer-type": [
+        {
+            "cust_class_id": 30,
+            "cust_class_name": "General Category",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 32,
+            "cust_class_name": "Others",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 18,
+            "cust_class_name": "Association of Persons",
+            "pan_prefix": "A",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 19,
+            "cust_class_name": "Body of Individuals",
+            "pan_prefix": "B",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 20,
+            "cust_class_name": "Local Authority ",
+            "pan_prefix": "L",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 21,
+            "cust_class_name": "Artificial Juridical Person",
+            "pan_prefix": "J",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 22,
+            "cust_class_name": "Government",
+            "pan_prefix": "G",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 24,
+            "cust_class_name": "State Government",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 25,
+            "cust_class_name": "Central Government",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 26,
+            "cust_class_name": "Private sector",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 27,
+            "cust_class_name": "Public Sector",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 28,
+            "cust_class_name": "Self Employment",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 29,
+            "cust_class_name": "Overseas",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 7,
+            "cust_class_name": "Repledger",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 8,
+            "cust_class_name": "Jeweller",
+            "pan_prefix": null,
+            "class_level": 2
+        },
+        {
+            "cust_class_id": 9,
+            "cust_class_name": "Individual",
+            "pan_prefix": "P",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 10,
+            "cust_class_name": "Corp",
+            "pan_prefix": null,
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 11,
+            "cust_class_name": "Firm",
+            "pan_prefix": "F",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 1,
+            "cust_class_name": "Senior citizen",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 2,
+            "cust_class_name": "Ex-service men",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 3,
+            "cust_class_name": "Widow of ex-service men",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 5,
+            "cust_class_name": "Service pensioner",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 6,
+            "cust_class_name": "Ex-Muthoot staff",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 12,
+            "cust_class_name": "HUF",
+            "pan_prefix": "H",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 13,
+            "cust_class_name": "Company",
+            "pan_prefix": "C",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 14,
+            "cust_class_name": "Trust",
+            "pan_prefix": "T",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 31,
+            "cust_class_name": "Co Operative Sector",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 15,
+            "cust_class_name": "MFIN Staff",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 16,
+            "cust_class_name": "Muthoot Group Staff",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 33,
+            "cust_class_name": "Foreigner",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 34,
+            "cust_class_name": "Super Senior",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 35,
+            "cust_class_name": "Muthoot Senior Citizen",
+            "pan_prefix": null,
+            "class_level": 3
+        },
+        {
+            "cust_class_id": 36,
+            "cust_class_name": "NRI Individual",
+            "pan_prefix": "P",
+            "class_level": 1
+        },
+        {
+            "cust_class_id": 38,
+            "cust_class_name": "Muthoot Ambassador",
+            "pan_prefix": null,
+            "class_level": 2
+        }
+    ],
+    "state": [
+        {
+            "state_id": 1,
+            "state_name": "Andhra Pradesh"
+        },
+        {
+            "state_id": 2,
+            "state_name": "Arunachal Pradesh"
+        },
+        {
+            "state_id": 3,
+            "state_name": "Assam"
+        },
+        {
+            "state_id": 4,
+            "state_name": "Bihar"
+        },
+        {
+            "state_id": 5,
+            "state_name": "Chhattisgarh"
+        },
+        {
+            "state_id": 6,
+            "state_name": "Goa"
+        },
+        {
+            "state_id": 7,
+            "state_name": "Gujarat"
+        },
+        {
+            "state_id": 8,
+            "state_name": "Haryana"
+        },
+        {
+            "state_id": 9,
+            "state_name": "Himachal Pradesh"
+        },
+        {
+            "state_id": 10,
+            "state_name": "Jharkhand"
+        },
+        {
+            "state_id": 11,
+            "state_name": "Karnataka"
+        },
+        {
+            "state_id": 12,
+            "state_name": "Kerala"
+        },
+        {
+            "state_id": 13,
+            "state_name": "Madhya Pradesh"
+        },
+        {
+            "state_id": 14,
+            "state_name": "Maharashtra"
+        },
+        {
+            "state_id": 15,
+            "state_name": "Manipur"
+        },
+        {
+            "state_id": 16,
+            "state_name": "Meghalaya"
+        },
+        {
+            "state_id": 17,
+            "state_name": "Mizoram"
+        },
+        {
+            "state_id": 18,
+            "state_name": "Nagaland"
+        },
+        {
+            "state_id": 19,
+            "state_name": "Odisha"
+        },
+        {
+            "state_id": 20,
+            "state_name": "Punjab"
+        },
+        {
+            "state_id": 21,
+            "state_name": "Rajasthan"
+        },
+        {
+            "state_id": 22,
+            "state_name": "Sikkim"
+        },
+        {
+            "state_id": 23,
+            "state_name": "Tamil Nadu"
+        },
+        {
+            "state_id": 24,
+            "state_name": "Telangana"
+        },
+        {
+            "state_id": 25,
+            "state_name": "Tripura"
+        },
+        {
+            "state_id": 26,
+            "state_name": "Uttar Pradesh"
+        },
+        {
+            "state_id": 27,
+            "state_name": "Uttarakhand"
+        },
+        {
+            "state_id": 28,
+            "state_name": "West Bengal"
+        }
+    ]
+}

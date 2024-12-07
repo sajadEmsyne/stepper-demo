@@ -1,0 +1,184 @@
+{
+    "data": {
+        "country": [
+            {
+                "id": 1,
+                "name": "India"
+            },
+            {
+                "id": 2,
+                "name": "USA"
+            },
+            {
+                "id": 3,
+                "name": "Afganistan"
+            },
+            {
+                "id": 4,
+                "name": "Scotland"
+            },
+            {
+                "id": 5,
+                "name": "Albania"
+            }
+        ],
+        "titles": [
+            {
+                "id": 1,
+                "name": "Mr"
+            },
+            {
+                "id": 2,
+                "name": "Mrs"
+            },
+            {
+                "id": 3,
+                "name": "Miss"
+            },
+            {
+                "id": 4,
+                "name": "Ms"
+            },
+            {
+                "id": 5,
+                "name": "Dr"
+            },
+            {
+                "id": 6,
+                "name": "Adv"
+            }
+        ],
+        "phoneType": [
+            {
+                "id": 1,
+                "name": "Primary",
+                "imageUrl": "assets/images/jio.webp"
+            },
+            {
+                "id": 2,
+                "name": "Alternate",
+                "imageUrl": "assets/images/airtel.webp"
+            },
+            {
+                "id": 3,
+                "name": "Watsapp",
+                "imageUrl": "assets/images/airtel.webp"
+            },
+            {
+                "id": 4,
+                "name": "LandLine",
+                "imageUrl": "assets/images/airtel.webp"
+            }
+        ],
+        "gender": [
+            {
+                "id": 1,
+                "name": "Male"
+            },
+            {
+                "id": 2,
+                "name": "Female"
+            },
+            {
+                "id": 3,
+                "name": "Others"
+            }
+        ],
+        "residentialData": [
+            {
+                "id": 1,
+                "name": "residential1"
+            },
+            {
+                "id": 2,
+                "name": "residential2"
+            },
+            {
+                "id": 3,
+                "name": "residential3"
+            }
+        ],
+        "companiesData": [
+            {
+                "id": 1,
+                "name": "company1"
+            },
+            {
+                "id": 2,
+                "name": "company2"
+            },
+            {
+                "id": 3,
+                "name": "company3"
+            }
+        ],
+        "taxData": [
+            {
+                "id": 1,
+                "name": "Individual"
+            },
+            {
+                "id": 2,
+                "name": "tax_category2"
+            },
+            {
+                "id": 3,
+                "name": "tax_category3"
+            }
+        ],
+        "customerClassificationData": [
+            {
+                "id": 1,
+                "name": "General Category"
+            },
+            {
+                "id": 2,
+                "name": "Central and state government award winner,"
+            },
+            {
+                "id": 3,
+                "name": "Senior citizen"
+            },
+            {
+                "id": 4,
+                "name": "Ex-servicemen"
+            },
+            {
+                "id": 5,
+                "name": "Widow of ex-servicemen"
+            },
+            {
+                "id": 6,
+                "name": "Service pensioner"
+            },
+            {
+                "id": 7,
+                "name": "Ex-Muthoot staff"
+            },
+            {
+                "id": 8,
+                "name": "Co-Operative Sector"
+            },
+            {
+                "id": 9,
+                "name": "MFIN Staff"
+            },
+            {
+                "id": 10,
+                "name": "Muthoot Group Staff"
+            },
+            {
+                "id": 11,
+                "name": "Super Senior"
+            },
+            {
+                "id": 12,
+                "name": "Foreigner"
+            },
+            {
+                "id": 13,
+                "name": "Muthoot Senior Citizen"
+            }
+        ]
+    }
+}

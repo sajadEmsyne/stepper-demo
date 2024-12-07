@@ -1,0 +1,39 @@
+<!-- ========== App Menu ========== -->
+<div class="app-menu navbar-menu" style="position: fixed;">
+  <!-- LOGO -->
+  <div class="navbar-brand-box">
+
+    <!-- Dark Logo-->
+    <a class="logo logo-dark">
+      <span class="logo-sm">
+        <img src="assets/images/logo-sm.png" height="60" alt="Muthoot Finance">
+      </span>
+      <span class="logo-lg">
+        <img src="assets/images/logo-dark.png" alt="Muthoot Finance">
+      </span>
+    </a>
+    <!-- Light Logo-->
+    <a class="logo logo-light">
+      <span class="logo-sm">
+        <img src="assets/images/logo-sm.png" height="60" alt="Muthoot Finance">
+      </span>
+      <span class="logo-lg">
+        <img src="assets/images/logo-light.png" alt="Muthoot Finance">
+      </span>
+    </a>
+    <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover" (click)="toggleMobileMenu($event)">
+      <i class="ri-record-circle-line"></i>
+    </button>
+  </div>
+
+  <div id="scrollbar">
+    <div class="container-fluid  menu-bg">
+
+    </div>
+    <!-- Sidebar -->
+  </div>
+  <div class="sidebar-background"></div>
+</div>
+<!-- Left Sidebar End -->
+<!-- Vertical Overlay-->
+<div class="vertical-overlay" (click)="SidebarHide()"></div>

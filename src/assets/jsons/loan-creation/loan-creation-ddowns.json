@@ -1,0 +1,275 @@
+{
+    "category": [
+        {
+            "category_id": 1,
+            "category_name": "Manufacturing"
+        },
+        {
+            "category_id": 2,
+            "category_name": "Service Provider"
+        },
+        {
+            "category_id": 3,
+            "category_name": "Others"
+        }
+    ],
+    "natureOfLoan": [
+        {
+            "id": 1,
+            "nature": "Walk-in"
+        },
+        {
+            "id": 2,
+            "nature": "Take Over"
+        },
+        {
+            "id": 3,
+            "nature": "Loan@Home"
+        },
+        {
+            "id": 4,
+            "nature": "Gold loan Unlocker"
+        }
+    ],
+    "purposeOfLoan": [
+        {
+            "purpose_id": 3,
+            "purpose_name": "Employment"
+        },
+        {
+            "purpose_id": 1,
+            "purpose_name": "Business"
+        },
+        {
+            "purpose_id": 2,
+            "purpose_name": "Agriculture"
+        },
+        {
+            "purpose_id": 5,
+            "purpose_name": "Medical"
+        },
+        {
+            "purpose_id": 6,
+            "purpose_name": "Property"
+        },
+        {
+            "purpose_id": 8,
+            "purpose_name": "House Construction And Repair"
+        },
+        {
+            "purpose_id": 7,
+            "purpose_name": "Education"
+        },
+        {
+            "purpose_id": 11,
+            "purpose_name": "Personal"
+        },
+        {
+            "purpose_id": 9,
+            "purpose_name": "Marriage"
+        },
+        {
+            "purpose_id": 10,
+            "purpose_name": "Vehicle"
+        },
+        {
+            "purpose_id": 4,
+            "purpose_name": "Others"
+        }
+    ],
+    "scheme": [
+        {
+            "scheme_id": 6365,
+            "scheme_name": "MSL-2607",
+            "base_scheme_id": 6365,
+            "base_int_rate": 11.5,
+            "prod_type_id": 271
+        },
+        {
+            "scheme_id": 6365,
+            "scheme_name": "MSL-2607",
+            "base_scheme_id": 6365,
+            "base_int_rate": 18,
+            "prod_type_id": 271
+        },
+        {
+            "scheme_id": 6367,
+            "scheme_name": "MSL-2607S1",
+            "base_scheme_id": 6365,
+            "base_int_rate": 21,
+            "prod_type_id": 271
+        },
+        {
+            "scheme_id": 6368,
+            "scheme_name": "MSL-2607S2",
+            "base_scheme_id": 6365,
+            "base_int_rate": 24,
+            "prod_type_id": 271
+        },
+        {
+            "scheme_id": 6368,
+            "scheme_name": "APATEST1",
+            "base_scheme_id": 6365,
+            "base_int_rate": 26,
+            "prod_type_id": 500
+        },
+        {
+            "scheme_id": 6108,
+            "scheme_name": "APATEST2",
+            "base_scheme_id": null,
+            "base_int_rate": null,
+            "prod_type_id": 500
+        }
+    ],
+    "subCategory": [
+        {
+            "sub_category_id": 1,
+            "sub_category_name": "Food And Allied Industries",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 2,
+            "sub_category_name": "Textile Products Including Hosiery",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 3,
+            "sub_category_name": "Silk/Man-Made Fibre Hosiery",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 4,
+            "sub_category_name": "Wood And Wood Products",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 5,
+            "sub_category_name": "Paper Products",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 6,
+            "sub_category_name": "Leather And Leather Products Including Footwear",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 7,
+            "sub_category_name": "Rubber Products",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 8,
+            "sub_category_name": "Plastic Products",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 9,
+            "sub_category_name": "Chemicals And Chemical Products Laboratory Chemicals And Reagents",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 10,
+            "sub_category_name": "Wood Preservative ",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 11,
+            "sub_category_name": "Colour Bases",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 12,
+            "sub_category_name": "Natural Essential Oils",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 13,
+            "sub_category_name": "Organic Chemicals, Drugs And Drug Intermediates",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 14,
+            "sub_category_name": "Other Chemicals And Chemical Products",
+            "category_id": 2
+        },
+        {
+            "sub_category_id": 15,
+            "sub_category_name": "Glass And Ceramics",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 16,
+            "sub_category_name": "Roofing Tiles",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 17,
+            "sub_category_name": "Flooring Tiles",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 18,
+            "sub_category_name": "Ceramic Table Wares And Allied Items In Stone Wares Semi Vitreous Ware And Earthern Wares",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 19,
+            "sub_category_name": "Mechnical Engineering Excluding Transport Equipment",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 20,
+            "sub_category_name": "Metal items including furniture,lockers,utensils",
+            "category_id": 1
+        },
+        {
+            "sub_category_id": 21,
+            "sub_category_name": "Electrical Appliances",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 22,
+            "sub_category_name": "Electronic Equipments And Components",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 23,
+            "sub_category_name": "Transport Equipment Boats And Truckbody Building",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 24,
+            "sub_category_name": "Auto Parts Components And Ancillaries And Garage Eqpt",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 25,
+            "sub_category_name": "Bicycle Parts, Tricycles And Perambulators",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 26,
+            "sub_category_name": "Miscellaneous Transport Equipment",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 27,
+            "sub_category_name": "Mathematical And Survey Instruments",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 28,
+            "sub_category_name": "Sports Goods",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 29,
+            "sub_category_name": "Stationery Items",
+            "category_id": 3
+        },
+        {
+            "sub_category_id": 30,
+            "sub_category_name": "Clocks And Watches"
+        }
+    ]
+}

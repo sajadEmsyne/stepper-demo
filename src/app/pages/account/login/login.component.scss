@@ -1,0 +1,334 @@
+.login-outer {
+    height: 100vh;
+}
+.left-area {
+    width: 60%;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+.right-area {
+    width: 40%;
+    background-size: cover;
+    background-position: center top;
+    background: rgb(255,59,73);
+    background: -moz-linear-gradient(180deg, rgba(255,59,73,1) 0%, rgba(200,36,48,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,59,73,1) 0%, rgba(200,36,48,1) 100%);
+    background: linear-gradient(180deg, rgba(255,59,73,1) 0%, rgba(200,36,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3b49",endColorstr="#c82430",GradientType=1);
+    border-left: 15px solid #b4262e;
+    box-shadow: 0px 0px 29px 0px rgb(0 0 0 / 42%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-area .bgs{
+    position: absolute;
+    content: close-quote;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: contain;
+    background-position: center bottom;
+    overflow: hidden;
+}
+.amithabh {
+    position: absolute;
+    width: 74vh;
+    bottom: 0;
+    left: 30px;
+}
+.left-main-content {
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+.left-main-content .main-head {
+    font-weight: 700;
+    font-size: 40px;
+    border-bottom: 3px solid rgb(255 59 73 / 70%);
+    display: inline-block;
+    margin-bottom: 8vh;
+    padding-bottom: 10px;
+}
+
+.left-main-content .main-head span {
+    color: #ff3b49;
+}
+
+.each-ponts .points {
+    position: relative;
+    background-color: #fff;
+    width: 261px;
+    text-align: left;
+    padding: 14px;
+    padding-left: 88px;
+    border-radius: 14px;
+    min-height: 89px;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 1px rgb(0 0 0 / 8%);
+}
+
+.each-ponts .points .img-icn {
+    width: 63px;
+    position: absolute;
+    left: 13px;
+}
+
+.each-ponts .points span.text {
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+}
+.logo-muthoot {
+    width: 138px;
+    position: absolute;
+    left: 70px;
+    top: 24px;
+}
+.login-main .tp-icon {
+    margin: auto;
+    display: inherit;
+    width: 90px;
+}
+
+.login-main h2 {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.login-main .login-ot {
+    background-color: #f0f0f0;
+    padding: 25px 25px;
+    border-radius: 15px;
+    width: 390px;
+    box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.22);
+
+}
+
+.login-ot .form-label {
+    font-size: 14px;
+    color: #373839;
+    margin-bottom: 2px;
+    //font-weight: 500;
+    margin-top: 4px;
+}
+.btn-login {
+    background: rgb(94,94,203);
+    background: linear-gradient(180deg, rgba(94,94,203,1) 0%, rgba(71,71,161,1) 100%);
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    padding: 11px 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 30%);
+    margin-top: 15px;
+    transition: all .3s;
+    height: 43.5px !important;
+}
+.btn-login:hover {
+    transition: all .3s;
+    transform: scale(1.04);
+}
+
+.login-ot .icon-input .form-control {
+    height: 52px;
+    border: 2px solid #d7d7d7;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 7%);
+}
+.login-ot .icon-input .form-control:focus{
+    border-color: #b3b3ff !important;
+}
+
+.login-ot .icon-input {
+    margin-bottom: 15px;
+    position: relative;
+}
+.login-ot .icon-input .input-img {
+    position: absolute;
+    right: 13px;
+    bottom: 18px;
+    width: 13px;
+}
+.login-ot .icon-input .input-img.lock{
+    width: 11px;
+}
+.form-check label,
+.frgt-lable {
+    color: var(--vz-body-color);
+    //font-weight: 500;
+}
+.form-check .form-check-input {
+    cursor: pointer;
+    border: 1px solid var(--vz-body-color);
+    background-color: #f0f0f0;
+}
+.form-check .form-check-input:checked {
+    background-color: #4b38b3;
+}
+.frgt-lable{
+    transition: all .4s;
+}
+.frgt-lable:hover {
+    color: #ff3b49;
+    transition: all .4s;
+}
+.right-area .bgs:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -33vw;
+    width: 600px;
+    content: close-quote;
+    height: 600px;
+    z-index: 99;
+    background: #fff;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.06;
+}
+.copyright {
+    position: absolute;
+    bottom: 15px;
+    z-index: 9;
+    color: #fff;
+    margin: 0;
+    opacity: 0.7;
+}
+.news-events {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #eeeeee;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-events .head {
+    background-color: #373839;
+    color: #fff;
+    text-align: center;
+    width: 130px;
+    padding: 3px 0px;
+}
+
+.news-events .view-all {
+    width: 100px;
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 3px 0px;
+}
+
+.news-events .view-all a {
+    color: #ff3b49;
+    font-weight: 700;
+    border-bottom: 1px solid #ff3b49;
+    font-size: 12px;
+}
+.news-events marquee {
+    //font-weight: 500;
+}
+.login-main{
+    padding-bottom: 5vw;
+}
+.tp-icon-responsive{
+    display: none;
+    margin: auto;
+    width: 130px;
+    margin-bottom: 21px;
+}
+@media only screen and (max-width: 1400px) {
+    .left-main-content .main-head {
+        font-size: 34px;
+        margin-bottom: 4vh;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    .amithabh {
+        width: 37vw;
+        left: 1px;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .left-main-content .main-head {
+        font-size: 23px;
+        margin-bottom: 4vh;
+    }
+    .login-main .login-ot{
+        width: 320px;
+    }
+    .right-area .bgs {
+        background-size: cover;
+        background-position: center center;
+    }
+    .each-ponts .points {
+        width: 225px;
+        padding-left: 70px;
+        min-height: 55px;
+    }
+    .each-ponts .points .img-icn {
+        width: 45px;
+    }
+    .each-ponts .points span.text {
+        font-size: 14px;
+        top: 0px;
+    }
+    .logo-muthoot {
+        width: 112px;
+        position: static;
+        margin: auto;
+        display: inherit;
+        margin-top: 40px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .each-ponts{
+        display: none !important;
+    }
+    .left-main-content {
+        margin-right: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .left-main-content .main-head {
+        font-size: 23px;
+    }
+    .amithabh {
+        width: 58vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .left-area{
+        width: 48%;
+    }
+    .right-area {
+        width: 52%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .left-area{
+        display: none;
+    }
+    .right-area {
+        width: 100%;
+        border: none;
+    }
+    .login-main .login-ot {
+        width: 320px;
+    }
+    .tp-icon{
+        display: none !important;
+    }
+    .tp-icon-responsive{
+        display: inherit;
+    }
+  }
+

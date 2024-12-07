@@ -1,0 +1,82 @@
+<section class="login-outer d-flex">
+    <div class="left-area relative" style="background-image: url('assets/images/bg-left.jpg');">
+        <div class="conta">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 text-center text-md-start">
+                    <img src="assets/images/logo-login.webp" class="logo-muthoot" alt="Logo" />
+                </div>
+                <div class="col-lg-8 text-center text-lg-end col-md-12">
+                    <div class="left-main-content">
+                        <h1 class="main-head">
+                            India’s <span>No. 1</span> Most Trusted <br />
+                            Financial Services Brand*
+                        </h1>
+                        <div class="each-ponts d-flex flex-column align-items-end">
+                            <div class="points">
+                                <img src="assets/images/ic1.webp" alt="icon" class="img-icn" />
+                                <span class="text">Trusted by 70 Cr+ Satisfied Customers* </span>
+                            </div>
+                            <div class="points">
+                                <img src="assets/images/ic2.webp" alt="icon" class="img-icn" />
+                                <span class="text">Largest Gold Loan Portfolio in India* </span>
+                            </div>
+                            <div class="points">
+                                <img src="assets/images/ic3.webp" alt="icon" class="img-icn" />
+                                <span class="text">Large Network of 5,750+ Branches* </span>
+                            </div>
+                            <div class="points">
+                                <img src="assets/images/ic4.webp" alt="icon" class="img-icn" />
+                                <span class="text">800 Years of Family Business Legacy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/images/amitabh.webp" alt="Amitabh" class="amithabh" />
+        <div class="news-events">
+            <div class="head">News & events</div>
+            <marquee width="100%" direction="left">
+                {{marqueContent}}
+            </marquee>
+            <div class="view-all">
+                <a href="">VIEW ALL</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-area relative" style="background-image: url('assets/images/right-bg.png');">
+        <div class="login-main relative z-10">
+            <img src="assets/images/lock_ic.webp" alt="Login" class="tp-icon" />
+            <img src="assets/images/Muthoot_Finance_Logo.webp" alt="Login" class="tp-icon-responsive" />
+            <h2>Login to Your Account</h2>
+            <div class="login-ot">
+                <form [formGroup]="loginForm">
+                    <div class="mb-16">
+                        <label for="email" class="form-label">Username</label>
+                        <div class="mb-16 icon-input">
+                            <input type="text" class="form-control" id="email" name="email" formControlName="email"
+                                appUsername placeholder="Enter username" autocomplete="off">
+                            <img src="assets/images/user.webp" alt="User" class="input-img">
+                        </div>
+                    </div>
+                    <div class="mb-20">
+                        <label for="password-input" class="form-label">Password</label>
+                        <div class="icon-input">
+                            <input [type]="showPassword ? 'text' : 'password'" class="form-control"
+                                placeholder="Enter password" id="password-input" name="password-input"
+                                formControlName="password" autocomplete="off">
+                            <img src="assets/images/lock.webp" alt="Lock" class="input-img lock">
+                        </div>
+                    </div>
+                    <div class="mt-24 mb-24">
+                        <button class="btn btn-primary btn-login w-100 font-semibold" (click)="onSubmit()"
+                            type="submit">Login</button> 
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p class="copyright pb-3 fs-12">© {{currentYear}} {{appName}} | Version: {{ appVersion}} | Best viewed in 1920 X
+            1080 in Chrome.</p>
+    </div>
+</section>
